@@ -11,8 +11,8 @@ public class PetDbHelper extends SQLiteOpenHelper {
 
     public static final String LOG_TAG = PetDbHelper.class.getSimpleName();
 
-    public static final String DATABASE_NAME = "shelter.db";
-    public static final int DATABASE_VERSION = 1;
+    private static final String DATABASE_NAME = "shelter.db";
+    private static final int DATABASE_VERSION = 1;
 
         /**
          * constructor
